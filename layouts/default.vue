@@ -54,9 +54,9 @@ export default {
       drawer: false,
       items: [
         { title: 'Top', to: '/' },
-        { title: 'Mountains', to: '/mountains' },
+        { title: 'Climbing', to: '/climbing' },
         { title: 'Profile', to: '/profile' },
-        { title: 'Blogs', to: '/blogs' },
+        { title: 'Works', to: '/works' },
       ],
       title: "Shiki WeekendClimber"
     }
@@ -74,11 +74,7 @@ export default {
 }
 
 .v-toolbar {
-  margin-top: 70px !important;
-}
-
-.content {
-  margin-top: 55px;
+  /* margin-top: 70px !important; */
 }
 
 .v-btn {

@@ -7,7 +7,6 @@
       xs12
     >
     </v-flex>
-    <h1>ブログ</h1>
   </v-layout>
 </template>
 

@@ -7,7 +7,9 @@
       xs12
     >
     </v-flex>
-    <h1>Top</h1>
+    <div class="title">
+      <h2>Shiki's Climbing history</h2>
+    </div>
   </v-layout>
 </template>
 
@@ -18,3 +20,12 @@ export default {
   }
 }
 </script>
+
+<style>
+.title {
+    display: flex;
+    justify-content: center;
+    margin-top: 15%;
+}
+
+</style>
