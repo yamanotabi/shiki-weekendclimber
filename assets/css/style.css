@@ -1,0 +1,5 @@
+@font-face {
+    font-family: 'Arvo';
+    font-display: auto;
+    src: local('Arvo'), url(https://shiki-weekendclimber.herokuapp.com/_nuxt/fonts/7ec5dab.woff2) format('woff2');
+  }
