@@ -1,11 +1,14 @@
 <template>
   <v-container>
-    <div class=weather-data>
-      <h3>天気情報</h3>
-      <div class=sunny>晴れ: 77.55%</div>
-      <div class=cloudy>曇り: 18.37%</div>
-      <div class=rain>雨: 4.08%</div>
+    <div class="page-title">
+      <h4>山行履歴</h4>
     </div>
+    <!-- <div class=weather-data> -->
+      <!-- <h3>天気情報</h3> -->
+      <!-- <div class=sunny>晴れ: 77.55%</div>
+      <div class=cloudy>曇り: 18.37%</div>
+      <div class=rain>雨: 4.08%</div> -->
+    <!-- </div> -->
     <v-simple-table fixed-header height="600px">
       <template v-slot:default>
         <thead>
@@ -92,7 +95,7 @@
 </script>
 
 <style>
-.weather-data {
+/* .weather-data {
   margin-top: 10px;
   margin-bottom: 10px;
   text-align: center;
@@ -107,5 +110,9 @@
 
 .rain {
   display: inline-block;
+} */
+
+.page-title {
+  margin-bottom: 2%;
 }
 </style>

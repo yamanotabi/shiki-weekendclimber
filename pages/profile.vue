@@ -9,7 +9,7 @@
     </v-flex>
       <div class="profile">
         <img class="button_img" src="../assets/images/intro_image.jpg" />
-        <p class="name">Shiki</p>
+        <p class="name">シキ@週末クライマー</p>
         <div class="introduction">
           <p>平日はエンジニア、週末になると山に登る人</p>
           <p>最高到達地点はキナバル(4095m) 、エンジニアとしても山界に貢献したくて模索中</p>
@@ -17,7 +17,7 @@
       </div>
       <div class="sns_link">
         <div class="sns">
-          <p>SNS：</p>
+          <p>SNS: </p>
         </div>
         <div class="yamap">
           <a href="https://yamap.com/users/436203" target="_blank" style="color:black;">
@@ -63,7 +63,7 @@ export default {
         { id: 4, question: "居住地", answer: "島根県 -> 愛媛県 -> 神奈川県 -> 東京都" },
         { id: 5, question: "職業", answer: "エンジニア" },
         { id: 6, question: "身長", answer: "168cm" },
-        { id: 7, question: "体重", answer: "67" },
+        { id: 7, question: "体重", answer: "67kg" },
         { id: 8, question: "好きな山", answer: "北岳、間ノ岳を中心に南アルプスによく行きます" },
         { id: 9, question: "旅先", answer: "🇯🇵🇩🇪🇰🇷🇹🇼🇲🇾" },
         { id: 10, question: "座右の銘", answer: "Experience is expensive." },
@@ -97,6 +97,8 @@ export default {
 .introduction {
   text-align: center;
   margin-top: 3%;
+  margin-left: 3%;
+  margin-right: 3%;
 }
 
 .sns_link {

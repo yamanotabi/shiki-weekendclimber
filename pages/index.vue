@@ -8,7 +8,7 @@
     >
     </v-flex>
     <div class="title">
-      <h2>Shiki's Climbing history</h2>
+      <h2>Shiki WeekendClimber's Page</h2>
     </div>
   </v-layout>
 </template>
@@ -25,7 +25,9 @@ export default {
 .title {
     display: flex;
     justify-content: center;
-    margin-top: 15%;
+    margin-top: 20%;
+    margin-left: 3%;
+    margin-right: 3%;
 }
 
 </style>
