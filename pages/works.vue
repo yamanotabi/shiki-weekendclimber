@@ -4,7 +4,7 @@
       <p>これまでに制作した山・登山に関するサイト、サービス</p>
     </div>
     <v-layout row wrap>
-      <v-flex v-for="(product, i) in products" :key="i" d-flex md4>
+      <v-flex v-for="(product, i) in products" :key="i" d-flex md4 sx12>
         <v-card>
           <v-img :src="product.image" aspect-ratio="2.75" v-if="product.image != null"></v-img>
           <v-img :src="require('@/assets/images/works/comingsooon.png')" aspect-ratio="2.75" v-else></v-img>
@@ -46,3 +46,10 @@ export default {
   }
 }
 </script>
+
+<style>
+.v-card {
+  margin-right: 5%;
+  margin-left: 5%;
+}
+</style>

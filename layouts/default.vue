@@ -35,11 +35,8 @@
     </v-app-bar>
     <v-content>
       <transition name="fade">
-        <div class="content">
-          <nuxt />
-        </div>
+        <nuxt />
       </transition>
-      </v-container>
     </v-content>
   </v-app>
 </template>

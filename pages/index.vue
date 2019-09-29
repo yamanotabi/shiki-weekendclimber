@@ -8,7 +8,7 @@
     >
     </v-flex>
     <div class="title">
-      <h2>Shiki WeekendClimber's Page</h2>
+      <h2>Shiki-WeekendClimber's Page</h2>
     </div>
   </v-layout>
 </template>

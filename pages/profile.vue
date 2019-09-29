@@ -126,7 +126,7 @@ a {
 }
 
 .detail {
-  margin-left: 10%;
+  margin-left: 5%;
 }
 
 ul {
