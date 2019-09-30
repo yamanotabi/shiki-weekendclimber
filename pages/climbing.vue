@@ -57,7 +57,7 @@
             { id: 15, name: "仙丈ヶ岳", image: require("../assets/images/mountains/senzyogatake.jpg"), date: "2017.07.15", weather: "晴れ", number: "3人"},
             { id: 16, name: "白山", image: require("../assets/images/mountains/hakusan.jpg"), date: "2017.08.05", weather: "晴れ", number: "ソロ"},
             { id: 17, name: "甲斐駒ヶ岳", image: require("../assets/images/mountains/kaikomagatake.jpeg"), date: "2017.08.20", weather: "曇り", number: "ソロ"},
-            { id: 18, name: "北岳", image: require("../assets/images/mountains/kitadake2.jpg"), date: "2017.09.09", weather: "晴れ", number: "曇り"},
+            { id: 18, name: "北岳", image: require("../assets/images/mountains/kitadake2.jpg"), date: "2017.09.09", weather: "曇り", number: "ソロ"},
             { id: 19, name: "間ノ岳", image: require("../assets/images/mountains/ainodake.jpg"), date: "2017.09.10", weather: "晴れ", number: "ソロ"},
             { id: 20, name: "筑波山", image: require("../assets/images/mountains/tukubasan.jpeg"), date: "2018.03.25", weather: "晴れ", number: "ソロ"},
             { id: 21, name: "武甲山", image: require("../assets/images/mountains/bukosan.jpeg"), date: "2018.04.01", weather: "晴れ", number: "ソロ"},

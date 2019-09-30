@@ -4,10 +4,10 @@
       <p>これまでに制作した山・登山に関するサイト、サービス</p>
     </div>
     <v-layout row wrap>
-      <v-flex v-for="(product, i) in products" :key="i" d-flex md4 sx12>
+      <v-flex v-for="(product, i) in products" :key="i" md4 sm4 sx12>
         <v-card>
           <v-img :src="product.image" aspect-ratio="2.75" v-if="product.image != null"></v-img>
-          <v-img :src="require('@/assets/images/works/comingsooon.png')" aspect-ratio="2.75" v-else></v-img>
+          <v-img :src="require('@/assets/images/works/comingsooon.png')" aspect-ratio="1.5" v-else></v-img>
           <v-card-title class="headline">
             {{ product.name }}
           </v-card-title>
@@ -41,6 +41,14 @@ export default {
           url: 'https://yamanokotoba.com/',
           open: true,
         },
+        {
+          name: "Shiki-WeekendClimber's Page",
+          image:
+            require("../assets/images/works/shiki-weekendclimber_top.png"),
+            description: "自分の登山に関する情報をまとめたポートフォリオサイト",
+            url: 'https://shiki-weekendclimber.appspot.com/',
+            open: true,
+        }
       ]
     }
   }
@@ -49,7 +57,9 @@ export default {
 
 <style>
 .v-card {
-  margin-right: 5%;
-  margin-left: 5%;
+  margin-right: 2%;
+  margin-left: 2%;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 </style>
