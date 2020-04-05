@@ -48,6 +48,14 @@ export default {
             description: "自分の登山に関する情報をまとめたポートフォリオサイト",
             url: 'https://shiki-weekendclimber.appspot.com/',
             open: true,
+        },
+        {
+          name: "(仮)Mountains Database",
+          image:
+            require("../assets/images/works/comingsooon.png"),
+            description: "日本の山に関する情報をまとめたデータベース",
+            url: '',
+            open: true,
         }
       ]
     }

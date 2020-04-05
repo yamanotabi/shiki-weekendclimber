@@ -17,7 +17,19 @@
 
 export default {
   components: {
-  }
+  },
+  head() {
+    return {
+      title: "Shiki-WeekendClimber's Site",
+      meta: [
+        { name: 'twitter:card', content: "summary_large_image" },
+        { name: 'twitter:site', content: "@shiki_developer" },
+        { name: 'twitter:title', content: "Shiki-WeekendClimber's Site"},
+        { name: 'twitter:description', content: "shikiの山ポートフォリオサイト" },
+        { name: 'twitter:image', content: require('~/assets/images/portfolio_top.png') }
+      ]
+    }
+  },
 }
 </script>
 
